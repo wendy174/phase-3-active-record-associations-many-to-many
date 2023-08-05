@@ -4,6 +4,7 @@ class CreateReviews < ActiveRecord::Migration[6.1]
       t.integer :score
       t.string :comment
       t.integer :game_id # this is our foreign key
+      t.integer :user_id 
       t.timestamps
     end
   end
